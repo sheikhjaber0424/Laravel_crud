@@ -58,8 +58,8 @@
                             });
                         }else{
                             $(form)[0].reset();
-                            // alert(data.msg);
-                            fetchAllProducts();
+                            alert(data.msg);
+                            // fetchAllProducts();
                         }
                     }
                 });
